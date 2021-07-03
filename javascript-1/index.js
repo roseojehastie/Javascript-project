@@ -34,3 +34,42 @@ console.log(5 <= 5)
 console.log(3 >= 2)
 console.log(2 > 2)
 console.log(3 > 2)
+
+/*properties & methods: intances of different data have, by default,
+different properties and methods. for example, "ALL STRINGS HAVE 
+LENGTH PROPERTY*/
+console.log('Hello World'.length)
+
+/* Method are actions that we can perform on that particular data.
+  recognise method by the dot, followed by the method, and then "parentheses
+  (which might or migth not have something inside of them) E.G. strings have 
+  a toUpperCase method....*/
+  console.log('Hello World'.toUpperCase());
+
+  // and a "charAT" method  which find the character at position n(starting from 0!)... //
+  console.log('Hello World'.charAt(0))
+  console.log('Hello World'.charAt(8))
+  console.log('Hello World'.charAt(6))
+
+  /*Javascript Executes a block of code only is a particular condition is TRUE. The condition
+    goes inside the parentheses, and the block of code to be executed goes between the curly braces */
+/* "if" (condition which evaluates to true or false) {
+ execute this code if this condition is true}*/
+ let age = '12'
+ if (age > 12) {
+     console.log('you can watch this movie!')
+     /* it you want to execute a block of code if the condition doesn't pass, we can use as "else block" */
+ } else{
+     console.log('sorry, you are too young')
+ }
+// To create more possible routes, you ccan use else if:
+
+if (favouriteNumber > 1000) {
+    console.log('Your favorite number is HUGE!')
+} else if (favouriteNumber < 10) {
+    console.log('Your favourite number is TINY!')
+} else {
+    console.log('your favourite number is boring!')
+}
+
+
