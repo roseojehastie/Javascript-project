@@ -6,6 +6,7 @@
 each variable can only be assigned to one piece of data. vaiable functionis code is design to carry out a task. variable function is 
 executed when it is evoked (call back)  */
 
+//use "let" for for variable which you might want to reassign// 
 let name = 'rose';
 console.log(name);
 
@@ -18,6 +19,7 @@ console.log(names);
 var car = "lamborgini";
 console.log(car);
 
+// Use "const" variable for values whcih are constants that will never be reasigned.//
 const nan = ("Oje's");
 console.log(nan);
 
