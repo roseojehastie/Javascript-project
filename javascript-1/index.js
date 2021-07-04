@@ -1,3 +1,11 @@
+
+/* JAVASCRIPT DATA TYPE */
+//> NUMBER, STRING, BOLEAN, NULL, UNDEFINE, OBJECT//
+
+/* Assignment and variable variable are like names for data. we declare a variable and it is then staored in our computer's memory
+each variable can only be assigned to one piece of data. vaiable functionis code is design to carry out a task. variable function is 
+executed when it is evoked (call back)  */
+
 let name = 'rose';
 console.log(name);
 
@@ -13,7 +21,7 @@ console.log(car);
 const nan = ("Oje's");
 console.log(nan);
 
-// LET FOR VARIABLE WHICH YOU MIGHT WANT TO REASSIGN//
+//USE LET FOR VARIABLE WHICH YOU MIGHT WANT TO REASSIGN//
 let age = 32;
 age = + 1;
 
