@@ -80,14 +80,39 @@ if (favouriteNumber > 1000) {
 kind of objects, where each value starts from "0" )*/
 
 const myArray = [4, 1.6, 'cat' [true, false], null, 'dog'];
+//we can access particular elements of the array using bracket notation//
 console.log(myArray[0])
 console.log(myArray[4])
 
 //Array have a length property//
 console.log(myArray.length)
+// The arrays [true, false] counts as one!//
 
-/* Array also has numerous useful methods such as push */
+/* Array also has numerous useful methods such as push
+which pushes new element onto the end of the array, 
+and join, which joins the array into string. */
 
+let myFavouriteThings = ['piza', 'coding', 'cake'];
+myFavouriteThings.push('Game of thrones');
+console.log(myFavouriteThings);
 
+const prase = ['H', 'e', 'l', 'l', 'o'];
+const joinedPrase = prase.join ('');
+console.log(joinedPrase);
 
+/* "OBJECTS are another way to assign multiple VALUES to onE variable
+instaed of listing values, we DECLARE "KEY VALUE PAIRS"*/
+const myCar = {
+    make: "Mazda",
+    model: "2",
+    year: "2012",
+    colour: "Red"
+}
+/*we can access data inside objects in two ways.
+if we know the name os the KeyboardEvent, we can use DOT NOTATION*/
+console.log(myCar.make);
 
+/* if we don't know the name directly and need javascript to work
+out which KEY_VALUE pair to find, we use SQUARE BRACKET NOTATION */
+const customerSearch = 'year';
+console.log(myCar[customerSearch]);
