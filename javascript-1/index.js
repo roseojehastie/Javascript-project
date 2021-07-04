@@ -116,3 +116,41 @@ console.log(myCar.make);
 out which KEY_VALUE pair to find, we use SQUARE BRACKET NOTATION */
 const customerSearch = 'year';
 console.log(myCar[customerSearch]);
+
+/* "for Loops" imagine we want to console.log the numbesr 1-100. 
+There is no point writing out console.log(1), console.log(2).... all the way to 100!
+Luckily, there is a handy little DEVICE in JAVASCRPIT that can repeat blocks of code. 
+it is called a "for Loop. THis is the structure:
+    start for loop at 1; Keep iterating only while this condition is ture; Increment our variable(i)by 1 each time we iterate
+     for (let i = 1;        i <= 100;                                        i++){
+     console.log(i); } " */
+
+     for (let i = 1; i <= 100; i++) {
+        console.log(i);
+     }
+     for (let i = 1; i <= 1000; i++) {
+        console.log(i);
+     }
+//for loops are really useful for looping through data in arrays://
+const favouriteFood = ['Curry', 'Pizza', 'Halloumi', 'Panckae'];
+for (let i = 0; i < favouriteFood.length; i++) {
+    console.log(favouriteFood[i]);
+}
+// There are other types of loops too, but the for loop is the most useful for now//
+
+/* Functions are repeated blocks of code. The return key is how you get data out of a functionout. it also ends EXECUTION immediately.  */
+// function multiply (a, b) {
+//     return a * b;
+// }console.log(a,b)
+
+function multiply (a, b) {
+    return a * b;
+    } 
+
+const result = multiply(5, 10);
+    console.log(result);
+    /* > when we use parentheses after a function name like this "MULTIPLY"(5,10), this means we are CALLING or INVOKING the function "MULTIPLY"
+     > We are saying that the value of a should be 5 and the value of b 10
+     >"return a*b" means that the function will output whatever we get by multiplyinh a and b, in this case"50"
+     we can pass whatever data we like as "ARGUEMENT" into the function between the parenthesis when we call it.
+     This way we have "REUSABLE functions" that take any two numbers nad output the value of the two numbers multiplied together */
