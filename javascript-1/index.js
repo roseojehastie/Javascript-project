@@ -13,6 +13,10 @@ console.log(car);
 const nan = ("Oje's");
 console.log(nan);
 
+// LET FOR VARIABLE WHICH YOU MIGHT WANT TO REASSIGN//
+let age = 32;
+age = + 1;
+
 //Basic aritemetic in javascript with built in operators  //
 console.log(5+6);
 console.log(10 / 5); 
@@ -55,7 +59,7 @@ console.log('Hello World'.length)
     goes inside the parentheses, and the block of code to be executed goes between the curly braces */
 /* "if" (condition which evaluates to true or false) {
  execute this code if this condition is true}*/
- let age = '12'
+//  let age = 12;//
  if (age > 12) {
      console.log('you can watch this movie!')
      /* it you want to execute a block of code if the condition doesn't pass, we can use as "else block" */
@@ -71,5 +75,19 @@ if (favouriteNumber > 1000) {
 } else {
     console.log('your favourite number is boring!')
 }
+
+/*Arrays are for adding multiple value to variable; arrys are special 
+kind of objects, where each value starts from "0" )*/
+
+const myArray = [4, 1.6, 'cat' [true, false], null, 'dog'];
+console.log(myArray[0])
+console.log(myArray[4])
+
+//Array have a length property//
+console.log(myArray.length)
+
+/* Array also has numerous useful methods such as push */
+
+
 
 
