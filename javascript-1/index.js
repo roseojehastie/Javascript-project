@@ -164,3 +164,17 @@ const result = multiply(5, 10);
      >"return a*b" means that the function will output whatever we get by multiplyinh a and b, in this case"50"
      we can pass whatever data we like as "ARGUEMENT" into the function between the parenthesis when we call it.
      This way we have "REUSABLE functions" that take any two numbers nad output the value of the two numbers multiplied together */
+
+     //PRACICE///
+//      function publication () {
+//         return "freeCodeCamp";
+//         } 
+//      const publication = ("freeCodeCamp");
+// publication[0].toUpperCase() + publication.substring(1);
+
+const mySentence = "freeCodeCamp is an awesome resource";
+const words = mySentence.split(" ");
+
+for (let i = 0; i < words.length; i++) {
+    words[i] = words[i][0].toUpperCase() + words[i].substr(1);
+}
