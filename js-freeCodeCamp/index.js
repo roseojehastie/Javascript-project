@@ -57,6 +57,31 @@
 // increment the count variable when the button is clicked
 // change the count-el in the HTML to reflect the new count
 
-function increment() {
-    console.log("The button was clicked ")
-}
+// function increment() {
+//     console.log("The button was clicked ")
+// }
+
+//Practicing FUNCTION
+// function myLogger() {
+//     console.log(42)
+// }
+// myLogger()
+
+//create function that logs out the sum of all the lap times
+
+let lap1 = 34
+let lap2 = 33
+let lap3 = 36
+
+function logLapTime () {
+    // let totalTime = lap1 + lap2 + lap3
+    // console.log(totalTime)
+
+    // ALTERNATICE METHOD
+    console.log(lap1 + lap2 + lap3)
+    
+    }
+
+ logLapTime()
+
+
