@@ -69,19 +69,32 @@
 
 //create function that logs out the sum of all the lap times
 
-let lap1 = 34
-let lap2 = 33
-let lap3 = 36
+// let lap1 = 34
+// let lap2 = 33
+// let lap3 = 36
 
-function logLapTime () {
+// function logLapTime () {
     // let totalTime = lap1 + lap2 + lap3
     // console.log(totalTime)
 
     // ALTERNATICE METHOD
-    console.log(lap1 + lap2 + lap3)
+//     console.log(lap1 + lap2 + lap3)
     
-    }
+//     }
 
- logLapTime()
+//  logLapTime()
 
+let lapsCompleted = 0
+
+//create a fucntion that increment the lapsCompleted variable with one
+//Run it three times
+function incrementLap() {
+    lapsCompleted = lapsCompleted + 1
+}
+
+incrementLap()
+incrementLap()
+incrementLap()
+
+console.log(lapsCompleted)
 
