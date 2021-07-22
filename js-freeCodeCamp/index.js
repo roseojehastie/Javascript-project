@@ -163,4 +163,4 @@
 console.log(4 + 5) //9
 console.log("2" + "4") // 6
 console.log("5" + 1) //51
-console.log(100 + "100")// 1,000.00
+console.log(100 + "100")// 100100
