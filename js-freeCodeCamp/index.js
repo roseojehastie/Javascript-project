@@ -88,13 +88,34 @@ let lapsCompleted = 0
 
 //create a fucntion that increment the lapsCompleted variable with one
 //Run it three times
-function incrementLap() {
-    lapsCompleted = lapsCompleted + 1
+// function incrementLap() {
+//     lapsCompleted = lapsCompleted + 1
+// }
+
+// incrementLap()
+// incrementLap()
+// incrementLap()
+
+// console.log(lapsCompleted)
+
+// initialise the count as 0
+//listen for clicks on the increament button
+// increment the count variable when the button is clicked
+// change the count-el in the HTML to reflect the new count
+
+// write in carment case
+
+let countEl = document.getElementById("count-el")//pass in argument
+
+console.log(countEl)
+
+let count = 0
+
+function increment() {
+    // console.log("clicked")
+    count = count + 1
+    countEl.innerText = count
+    
 }
 
-incrementLap()
-incrementLap()
-incrementLap()
-
-console.log(lapsCompleted)
 
