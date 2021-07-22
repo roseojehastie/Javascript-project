@@ -140,5 +140,11 @@ let username = "per"
 
 // create a variable, message, taht stores the string: "You have three new notifications"
 let message = "you have three new notifications"
-console.log(message +  ", " + username)
 
+// console.log(message +  ", " + username)
+
+// Create a variable, messageTouser, taht contains the message we have logged
+
+let messageTouser = message + ", " + username + "!"
+
+console.log(messageTouser)
