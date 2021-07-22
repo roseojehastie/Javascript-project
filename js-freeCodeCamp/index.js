@@ -133,18 +133,34 @@
 //  console.log(count)
 // }
 
-//create strings
+// //create strings
 
-let username = "per"
-// console.log(username)
+// let username = "per"
+// // console.log(username)
 
-// create a variable, message, taht stores the string: "You have three new notifications"
-let message = "you have three new notifications"
+// // create a variable, message, taht stores the string: "You have three new notifications"
+// let message = "you have three new notifications"
 
-// console.log(message +  ", " + username)
+// // console.log(message +  ", " + username)
 
-// Create a variable, messageTouser, taht contains the message we have logged
+// // Create a variable, messageTouser, taht contains the message we have logged
 
-let messageTouser = message + ", " + username + "!"
+// let messageTouser = message + ", " + username + "!"
 
-console.log(messageTouser)
+// console.log(messageTouser)
+
+// create two variables, name and greetings. The name variable should store your name,
+// and the greeting should store e.g. "Hi, ny name is"
+
+// Create a third variable, my Greeting, that concatenantes the two strings
+// Log myGreeting to the console
+// let name = "Rose" 
+// let greeting = "Hi, my name is "
+// let myGreeting = greeting + name
+
+// console.log(myGreeting)
+
+console.log(4 + 5) //9
+console.log("2" + "4") // 6
+console.log("5" + 1) //51
+console.log(100 + "100")// 1,000.00
