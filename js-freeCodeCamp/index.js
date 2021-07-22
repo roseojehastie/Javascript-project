@@ -84,7 +84,7 @@
 
 //  logLapTime()
 
-let lapsCompleted = 0
+// let lapsCompleted = 0
 
 //create a fucntion that increment the lapsCompleted variable with one
 //Run it three times
@@ -98,6 +98,7 @@ let lapsCompleted = 0
 
 // console.log(lapsCompleted)
 
+//DISPLAY A COUNT WITH INNER HTML
 // initialise the count as 0
 //listen for clicks on the increament button
 // increment the count variable when the button is clicked
@@ -105,17 +106,39 @@ let lapsCompleted = 0
 
 // write in carment case
 
-let countEl = document.getElementById("count-el")//pass in argument
+// let countEl = document.getElementById("count-el")//pass in argument
 
-console.log(countEl)
+// console.log(countEl)
 
-let count = 0
+// let count = 0
 
-function increment() {
-    // console.log("clicked")
-    count = count + 1
-    countEl.innerText = count
+// function increment() {
+//     // console.log("clicked")
+//     count = count + 1
+//     countEl.innerText = count
     
-}
+// }
+// DOM: (aka how you use javascript to modify a website)
 
+// let countEl = document.getElementById("count-el")
+// let count = 0
+//  function increment() {
+//     count = count + 1
+//     countEl.innerText = count
+// }
+
+// 1. Create a function, save(), which log out when it's called
+
+// function save(){
+//  console.log(count)
+// }
+
+//create strings
+
+let username = "per"
+// console.log(username)
+
+// create a variable, message, taht stores the string: "You have three new notifications"
+let message = "you have three new notifications"
+console.log(message +  ", " + username)
 
