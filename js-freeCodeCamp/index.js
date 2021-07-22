@@ -32,25 +32,25 @@
 // // count = 3
 // console.log(count)
 
-//INCREMENT VARIABLE BY REASSIGNING  
-let count = 5
-// COUNT + 1
- count =  count + 33
- count =  count - 33 
-console.log(count)
+//INCREMENT and decreasing VARIABLE BY REASSIGNING  
+// let count = 5
+// // COUNT + 1
+//  count =  count + 33
+//  count =  count - 33 
+// console.log(count)
 
-let bonusPoints = 50
-console.log(bonusPoints)
+// let bonusPoints = 50
+// console.log(bonusPoints)
 
-bonusPoints = bonusPoints + 100
-console.log(bonusPoints)
+// bonusPoints = bonusPoints + 100
+// console.log(bonusPoints)
 
-bonusPoints = bonusPoints - 25
-console.log(bonusPoints)
+// bonusPoints = bonusPoints - 25
+// console.log(bonusPoints)
 
-bonusPoints = bonusPoints + 70
+// bonusPoints = bonusPoints + 70
 
-console.log(bonusPoints)
+// console.log(bonusPoints)
 
 
 
