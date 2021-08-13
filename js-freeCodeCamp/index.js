@@ -104,7 +104,7 @@
 // increment the count variable when the button is clicked
 // change the count-el in the HTML to reflect the new count
 
-// write in carment case
+// write carmel case
 
 // let countEl = document.getElementById("count-el")//pass in argument
 
@@ -117,21 +117,32 @@
 //     count = count + 1
 //     countEl.innerText = count
     
-// }
+//  }
 // DOM: (aka how you use javascript to modify a website)
 
-// let countEl = document.getElementById("count-el")
-// let count = 0
-//  function increment() {
-//     count = count + 1
-//     countEl.innerText = count
-// }
+let saveEl = document.getElementById("save-el")
+let countEl = document.getElementById("count-el")
+let count = 0
+
+console.log("saveEl",saveEl)
+
+ function increment() {
+    // count = count + 1 //(Change to use +=)
+    count += 1
+    console.log("countEl is this", countEl)
+    countEl.innerText = count
+}
 
 // 1. Create a function, save(), which log out when it's called
 
-// function save(){
-//  console.log(count)
-// }
+function save(){
+    let countStr = count + " = "
+    // 2. create a variable that contains both the count and the 
+    // 3. Render the variable in the savedEl using innerText
+    saveEl.innerText + countStr
+    // NB: Make sure to not delete the existing content onthe paragraph
+ console.log(count)
+}
 
 // //create strings
 
@@ -160,7 +171,7 @@
 
 // console.log(myGreeting)
 
-console.log(4 + 5) //9
-console.log("2" + "4") // 6
-console.log("5" + 1) //51
-console.log(100 + "100")// 100100
+// console.log(4 + 5) //9
+// console.log("2" + "4") // 6
+// console.log("5" + 1) //51
+// console.log(100 + "100")// 100100
