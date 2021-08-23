@@ -20,3 +20,15 @@ welcomeEl.innerText = greeting + name1
 
 // or
 welcomeEl.innerText += "👋"
+
+
+let fatherEl = document.getElementById("father-el")
+
+let firstline = "Father you have been faithful "
+
+let thanks = " Thank you "
+
+
+fatherEl.innerText = firstline + thanks
+
+
