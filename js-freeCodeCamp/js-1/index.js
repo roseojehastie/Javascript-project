@@ -31,4 +31,13 @@ let thanks = " Thank you "
 
 fatherEl.innerText = firstline + thanks
 
+let beautifulEl = document.getElementById("beautiful-el")
+let beau = "beautiful day "
+let day = "wednesday "
+beautifulEl.innerText = beau + day 
+////////
+practiceEl = document.getElementById("practice-el")
 
+let prac = "practice make "
+let make = "perfect 😅"
+practiceEl.innerText = prac + make

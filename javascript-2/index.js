@@ -126,3 +126,15 @@
 //ABSTARCTION: hide the details and the complexity and show only the essentials and isolate impact of change
 // inheritance: eleminate redundant code
 //POLYMOPHISM: refacture ugly switch/case statement 
+
+// let myAge = 35
+// let humanDogRatio = 7
+
+// let myDogAge = myAge * humanDogRatio
+// console.log(myDogAge)
+
+
+let bonusPoints = 50
+bonusPoints = bonusPoints + 25
+
+console.log(bonusPoints)

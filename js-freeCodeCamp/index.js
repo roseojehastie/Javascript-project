@@ -149,12 +149,12 @@ function save(){
 // let username = "per"
 // // console.log(username)
 
-// // create a variable, message, taht stores the string: "You have three new notifications"
+// // create a variable, message, that stores the string: "You have three new notifications"
 // let message = "you have three new notifications"
 
 // // console.log(message +  ", " + username)
 
-// // Create a variable, messageTouser, taht contains the message we have logged
+// // Create a variable, messageTouser, that contains the message we have logged
 
 // let messageTouser = message + ", " + username + "!"
 
