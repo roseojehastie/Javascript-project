@@ -57,7 +57,7 @@ function greetLinda(){
    console.log(greet + ", " + name + "!")
 }
 greetLinda()
-
+// increneting & decementing
 let myPoints = 3
 
 function add3Points() {
@@ -76,3 +76,11 @@ remove1Points()
 remove1Points()
 add3Points()
 console.log(myPoints)
+// strings & numbers
+//try to predict what each of the lines will log out
+console.log("2" + 2)// 22
+console.log(11 + 7) //18
+console.log("My points: " + 5 + 9)// My points 4
+console.log(6 + "5") // 65
+console.log(2 + 2) //4
+console.log("11" + "14") //114
