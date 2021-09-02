@@ -124,24 +124,31 @@ let saveEl = document.getElementById("save-el")
 let countEl = document.getElementById("count-el")
 let count = 0
 
-console.log("saveEl",saveEl)
+// console.log("saveEl", saveEl)
 
  function increment() {
     // count = count + 1 //(Change to use +=)
     count += 1
-    console.log("countEl is this", countEl)
-    countEl.innerText = count
+    // console.log("countEl is this", countEl)
+    // countEl.innerText = count : failed to show space before save
+    //no. googled innerText on MDN to read reason and correct
+    countEl.textContent = count
+  
 }
 
-// 1. Create a function, save(), which log out when it's called
+// 1. Create a function, save(), which log out when it called
 
 function save(){
-    let countStr = count + " = "
-    // 2. create a variable that contains both the count and the 
+    let countStr = count + " - "
+    // 2. create a variable that contains both the count and the dash separator, i.e "12 -"
     // 3. Render the variable in the savedEl using innerText
-    saveEl.innerText + countStr
-    // NB: Make sure to not delete the existing content onthe paragraph
- console.log(count)
+    saveEl.textContent += countStr 
+    // saveEl.textContentStr ????? could use as well as saveEl.textContent += countStr 
+    countEl.textContent = 0
+    count = 0
+    // NB: Make sure to not delete the existing content of the paragraph
+//  console.log(count)
+
 }
 
 // //create strings

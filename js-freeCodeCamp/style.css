@@ -21,3 +21,14 @@ button {
 #save-btn {
   background-color: darkmagenta;
 }
+
+#save-el {
+  text-align: center;
+}
+#count-el {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
