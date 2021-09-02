@@ -41,3 +41,19 @@ practiceEl = document.getElementById("practice-el")
 let prac = "practice make "
 let make = "perfect 😅"
 practiceEl.innerText = prac + make
+
+fullnameEl = document.getElementById("fullname-el")
+let firstName = "Rosse "
+let lastName = "Oje "
+
+fullnameEl.innerText = firstName  +  lastName
+fullnameEl.innerText += " " + "🥰" + " " + "😄"
+
+
+let name = "Linda"
+let greet = "Hi there!" 
+
+function greetLinda(){
+   console.log(greet + ", " + name + "!")
+}
+greetLinda()

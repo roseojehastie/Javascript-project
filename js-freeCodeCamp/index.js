@@ -119,10 +119,9 @@
     
 //  }
 // DOM: (aka how you use javascript to modify a website)
-
+let count = 0
 let saveEl = document.getElementById("save-el")
 let countEl = document.getElementById("count-el")
-let count = 0
 
 // console.log("saveEl", saveEl)
 
