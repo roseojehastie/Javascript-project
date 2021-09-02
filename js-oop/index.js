@@ -1,4 +1,4 @@
-console.log('another trial');
+// console.log('another trial');
 //OBJECTS; craeting objects -- OBJECT IS A COLLECTING OF KET VALUE PAIRS;
 //PROPERTIES IS USED TO HOLD "VALUES"
 //METHODS IS DEFINE "SOME LOGIC"
@@ -130,6 +130,26 @@ console.log('another trial');
 
 
 
+// 01 - 09 - 21//
 
+// let username = "Rose"
+// let message = "You have three notifications"
 
+// let meassageToUser = username + ", " + message + "!"
+// console.log(meassageToUser)
 
+// let name = "Rose"
+// let greeting = "Hi my name is"
+
+// let myGreeting =  greeting + ", " +name + "!"
+// console.log(myGreeting)
+
+let welcomeEl = document.getElementById("welcome-el")
+
+let name = "TRose"
+let handsome = "handsome & "
+let greeting = "welcome back "
+welcomeEl.innerText = handsome + name + ", " + greeting 
+welcomeEl.innerText  +=  " 🥰"
+// innerText
+ 
