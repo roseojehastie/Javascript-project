@@ -54,12 +54,14 @@ let cardsEl = document.getElementById("cards-el")
 //     console.log("Not elegible, you have already gotten one")
 // }
 
-
+function startGame() {
+    renderGame()
+}
 
 function renderGame() {
     //render the sum on the page using this format -> "Sum: 14"
     sumEl.textContent = "Sum: " + sum
-    cardsEl.textContent = "Cards: " + card[0] + " " + card[1]
+    cardsEl.textContent = "Cards: " + cards[0] + " " + cards[1]
    
 if (sum <= 20){
     message = "Do you want to draw a new card?"
@@ -75,19 +77,20 @@ messageEl.textContent = message
 cardsEl.textContent = cards
 }  
 
-function startGame() {
-    renderGame()
-}
+
 
 function newCard() {
-    console.log("Drawing a new card from the deck")
+    // console.log("Drawing a new card from the deck")
 // 1. CREATE A CARD VARIABLE, AND HARD CODE ITS VALUE TO A NUMBER (2 -11)
-let card = 2
+let card = 6
 //2. ADD NEW CARD TO THE SUM VARIABLE
 sum += card
+
+//PUSH THE CARD TO THE CARDS ARRAY
+cards.push(card)
+console.log(cards)
 //3. CALL startGame
 renderGame()
-
 }
 //CASH OUT THE MONEY
 //INTORDUCE VARIABLE TO KEEP TRACK OF THE STATE OF THE GAME
@@ -104,6 +107,7 @@ renderGame()
 //NEW CARD BUTTON
 // SOLVING CARD PROBLEMS WITH AN ARRAY
 //INTRO TO ARRAYS
+// PUSH A NEW CARD TO THE ARRAY
 
 
 
