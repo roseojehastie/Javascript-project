@@ -5,6 +5,7 @@
 
 let firstCard = 10
 let secondCard = 4
+let cards = [ firstCard, secondCard]
 let sum = firstCard + secondCard
 // console.log(sum)
 let hasBlackjack = false
@@ -58,7 +59,7 @@ let cardsEl = document.getElementById("cards-el")
 function renderGame() {
     //render the sum on the page using this format -> "Sum: 14"
     sumEl.textContent = "Sum: " + sum
-    cardsEl.textContent = "Cards: " + firstCard + " " + secondCard
+    cardsEl.textContent = "Cards: " + card[0] + " " + card[1]
    
 if (sum <= 20){
     message = "Do you want to draw a new card?"
@@ -101,5 +102,8 @@ renderGame()
 //DISPLAY SUM
 //DISPLAT THE CARDS
 //NEW CARD BUTTON
+// SOLVING CARD PROBLEMS WITH AN ARRAY
+//INTRO TO ARRAYS
+
 
 
