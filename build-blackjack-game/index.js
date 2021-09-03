@@ -61,7 +61,11 @@ function startGame() {
 function renderGame() {
     //render the sum on the page using this format -> "Sum: 14"
     sumEl.textContent = "Sum: " + sum
-    cardsEl.textContent = "Cards: " + cards[0] + " " + cards[1]
+    // cardsEl.textContent = "Cards: " + cards[0] + " " + cards[1]
+    cardsEl.textContent = "Cards: "
+     for (let i = 0; i < cards.length; i++) {
+        cardsEl.textContent += cards[i] + " "
+     }
    
 if (sum <= 20){
     message = "Do you want to draw a new card?"
@@ -88,7 +92,7 @@ sum += card
 
 //PUSH THE CARD TO THE CARDS ARRAY
 cards.push(card)
-console.log(cards)
+// console.log(cards)
 //3. CALL startGame
 renderGame()
 }
@@ -108,6 +112,7 @@ renderGame()
 // SOLVING CARD PROBLEMS WITH AN ARRAY
 //INTRO TO ARRAYS
 // PUSH A NEW CARD TO THE ARRAY
+//USE A LOOP TO RENDER CARDS
 
 
 
