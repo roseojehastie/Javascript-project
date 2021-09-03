@@ -4,7 +4,7 @@
 //2. create a variable, sum, and set it to the sum of the two
 
 let firstCard = 10
-let secondCard = 11
+let secondCard = 4
 let sum = firstCard + secondCard
 // console.log(sum)
 let hasBlackjack = false
@@ -14,6 +14,7 @@ let messageEl = document.getElementById("message-el")
 let sumEl = document.getElementById("sum-el") //QUERYSELECTOR COULD BE OD INSTEAD OF ELEMENBYID
 // let sumEl = document.querySelector("#sum-el")
 let cardsEl = document.getElementById("cards-el")
+// let cardsEL = document.getElementById("newcard-el")
 
 
 // else if condition
@@ -54,10 +55,11 @@ let cardsEl = document.getElementById("cards-el")
 
 
 
-function startGame() {
+function renderGame() {
     //render the sum on the page using this format -> "Sum: 14"
     sumEl.textContent = "Sum: " + sum
     cardsEl.textContent = "Cards: " + firstCard + " " + secondCard
+   
 if (sum <= 20){
     message = "Do you want to draw a new card?"
    
@@ -72,6 +74,20 @@ messageEl.textContent = message
 cardsEl.textContent = cards
 }  
 
+function startGame() {
+    renderGame()
+}
+
+function newCard() {
+    console.log("Drawing a new card from the deck")
+// 1. CREATE A CARD VARIABLE, AND HARD CODE ITS VALUE TO A NUMBER (2 -11)
+let card = 2
+//2. ADD NEW CARD TO THE SUM VARIABLE
+sum += card
+//3. CALL startGame
+renderGame()
+
+}
 //CASH OUT THE MONEY
 //INTORDUCE VARIABLE TO KEEP TRACK OF THE STATE OF THE GAME
 // console.log(hasBlackjack)
@@ -84,5 +100,6 @@ cardsEl.textContent = cards
 //LINK TO STYLESHEET
 //DISPLAY SUM
 //DISPLAT THE CARDS
+//NEW CARD BUTTON
 
 

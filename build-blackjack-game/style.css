@@ -16,7 +16,9 @@ h1 {
   font-style: italic;
 }
 button {
+  text-align: center;
   color: #016f32;
+  justify-content: center;
   width: 150px;
   background-color: goldenrod;
   font-weight: bold;
@@ -24,4 +26,5 @@ button {
   padding-bottom: 5px;
   border-radius: 5px;
   border: none;
+  margin-bottom: 4px;
 }
