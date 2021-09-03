@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body {
   display: flex;
   background: burlywood;
@@ -11,6 +14,7 @@ body {
   width: 300px;
   height: 150px;
   justify-content: center;
+
 } */
 button {
   background: white;
@@ -21,4 +25,14 @@ button {
   font-weight: bold;
   cursor: pointer;
   border-radius: 20px;
+}
+span {
+  color: black;
+  /* margin-top: 100px; */
+  border: 1px solid black, 47;
+  padding: 5px 8px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: underline;
 }

@@ -25,10 +25,10 @@ function subtract(){
 
 function divide() {
     let result = num1 / num2
-    sumEl.textContent = "sum:" + result
+    sumEl.textContent = "Sum:" + result
 }
 
 function multiply() {
     let result = num1 * num2
-    sumEl.textContent = "sum:" + result
+    sumEl.textContent = "Sum:" + result
 }
