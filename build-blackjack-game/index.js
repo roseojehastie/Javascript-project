@@ -48,19 +48,21 @@ let message = ""
 //     console.log("Not elegible, you have already gotten one")
 // }
 
+let messageEl = document.getElementById("message-el")
+
 function startGame() {
 
 if (sum <= 20){
-    message = "Do you want to draw a new card? 🙂"
+    message = "Do you want to draw a new card?"
    
 }else if (sum ===21){
-    message = "Wohoo! You have got Blackjack! 🥳"
+    message = "You have got Blackjack!"
     hasBlackjack = true
 } else {
-    message = "You are out of the game! 😭"
+    message = "You are out of the game!"
     isAlive = false   
 }
-console.log(message)
+messageEl.textContent = message
 }   
 //CASH OUT THE MONEY
 //INTORDUCE VARIABLE TO KEEP TRACK OF THE STATE OF THE GAME
