@@ -48,10 +48,11 @@ let message = ""
 //     console.log("Not elegible, you have already gotten one")
 // }
 
-let messageEl = document.getElementById("message-el")
+
 
 function startGame() {
-
+    //render the sum on the page using this format -> "Sum: 14"
+    sumEl.textContent = "Sum: " + sum
 if (sum <= 20){
     message = "Do you want to draw a new card?"
    
@@ -63,7 +64,10 @@ if (sum <= 20){
     isAlive = false   
 }
 messageEl.textContent = message
-}   
+}  
+let messageEl = document.getElementById("message-el")
+let sumEl = document.getElementById("sum-el") //QUERYSELECTOR COULD BE OD INSTEAD OF ELEMENBYID
+// let sumEl = document.querySelector("#sum-el")
 //CASH OUT THE MONEY
 //INTORDUCE VARIABLE TO KEEP TRACK OF THE STATE OF THE GAME
 // console.log(hasBlackjack)
@@ -74,5 +78,6 @@ messageEl.textContent = message
 
 
 //LINK TO STYLESHEET
+//DISPLAY SUM
 
 
