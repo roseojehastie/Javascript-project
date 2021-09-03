@@ -48,6 +48,8 @@ let message = ""
 //     console.log("Not elegible, you have already gotten one")
 // }
 
+function startGame() {
+
 if (sum <= 20){
     message = "Do you want to draw a new card? 🙂"
    
@@ -56,8 +58,10 @@ if (sum <= 20){
     hasBlackjack = true
 } else {
     message = "You are out of the game! 😭"
-    isAlive = false
+    isAlive = false   
 }
+console.log(message)
+}   
 //CASH OUT THE MONEY
 //INTORDUCE VARIABLE TO KEEP TRACK OF THE STATE OF THE GAME
 // console.log(hasBlackjack)
@@ -65,4 +69,8 @@ if (sum <= 20){
 //add the isAlive variable
 // console.log(isAlive)
 
-console.log(message)
+
+
+//LINK TO STYLESHEET
+
+
