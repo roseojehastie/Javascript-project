@@ -115,10 +115,34 @@ Answer = 0, 1, 4, 0, 1, 2, 3, 5 */
 
 // let randomNumber = Math.floor( Math.random() *  6) + 1
 
-
+/* CREATE A ROLLDICE FUNCTION.....*/
 
 function rollDice() {
     let randomNumber = Math.floor( Math.random() *  6) + 1
     return (randomNumber)
 }
 console.log(rollDice())
+
+/* COMPLETING DICE FUNCTION */
+/* THE LOGICAL AND OPERATOR*/
+//LESSON 44: OUR CARD FEATURE IS BROKEN
+// LOGICAL OPERATORS LET YOU COMBINE MULTIPLE APPLICATIONS IN IF STATEMENT
+//SO THAT A PIECE PF CODE WILL ONLY RUN IF MULTIPLE CONDITIONS ARE SATISFIED
+// let hasCompleteCourse = true
+// let givesCertificate = true
+
+// fucntion generateCertificate() {
+// console.log("Generating certificate....")
+//} not completed
+
+let hasSolvedChallenge = false
+let hasHintsleft = false
+
+//create an if statemet that checkes that both variables  are false
+// if so, run the showSolution() function
+
+
+// fucntion showSolution() {
+//     console.log(showing Solution())
+//     if (SolvedChallenge)
+// }

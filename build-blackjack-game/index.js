@@ -108,21 +108,21 @@ messageEl.textContent = message
 // cardsEl.textContent = cards
 }  
 
-
-
 function newCard() {
     // console.log("Drawing a new card from the deck")
 // 1. CREATE A CARD VARIABLE, AND HARD CODE ITS VALUE TO A NUMBER (2 -11)
 // let card = 6
+if (isAlive === true  && hasBlackJack === false) {
 let card = getRandomCard()
 // //2. ADD NEW CARD TO THE SUM VARIABLE
 sum += card
 
 //PUSH THE CARD TO THE CARDS ARRAY
 cards.push(card)
-console.log(cards)
+// console.log(cards)
 //3. CALL startGame
 renderGame()
+}
 }
 //CASH OUT THE MONEY
 //INTORDUCE VARIABLE TO KEEP TRACK OF THE STATE OF THE GAME
