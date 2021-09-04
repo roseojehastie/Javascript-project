@@ -3,6 +3,8 @@
 
 //2. create a variable, sum, and set it to the sum of the two
 
+// let firstCard = getRandomCard()
+// let secondCard = getRandomCard()
 let firstCard = 10
 let secondCard = 4
 let cards = [ firstCard, secondCard]
@@ -54,6 +56,8 @@ let cardsEl = document.getElementById("cards-el")
 //     console.log("Not elegible, you have already gotten one")
 // }
 
+//CREATE A FUNCTION, getRandomCard(), that always returns the number 5
+
 function startGame() {
     renderGame()
 }
@@ -87,7 +91,8 @@ function newCard() {
     // console.log("Drawing a new card from the deck")
 // 1. CREATE A CARD VARIABLE, AND HARD CODE ITS VALUE TO A NUMBER (2 -11)
 let card = 6
-//2. ADD NEW CARD TO THE SUM VARIABLE
+// let card = getRandomCard()
+// //2. ADD NEW CARD TO THE SUM VARIABLE
 sum += card
 
 //PUSH THE CARD TO THE CARDS ARRAY
@@ -113,6 +118,7 @@ renderGame()
 //INTRO TO ARRAYS
 // PUSH A NEW CARD TO THE ARRAY
 //USE A LOOP TO RENDER CARDS
+//How can we avoid HARD-CODE VALUES?
 
 
 

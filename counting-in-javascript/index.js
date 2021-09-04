@@ -56,12 +56,30 @@
 
 // //FOR LOOPS, ARRAYS AND DOM
 
-let sentence = ["Hello", "my", "name", "is", "Eke"]
-let greetingEl = document.getElementById("greeting-el")
+// let sentence = ["Hello", "my", "name", "is", "Eke"]
+// let greetingEl = document.getElementById("greeting-el")
 
-//RENDER THE SENTENCE IN THE greetingEl PARAGRAPH USING A FOR LOOP AND .textContent
+// //RENDER THE SENTENCE IN THE greetingEl PARAGRAPH USING A FOR LOOP AND .textContent
  
-for (let i = 0; i < sentence.length; i++) {
-greetingEL.textContent += sentence[i] + " "
+// for (let i = 0; i < sentence.length; i++) {
+// greetingEL.textContent += sentence[i] + " "
 
+// }
+
+//RETURNING VALUES IN FUNCTION
+
+let player1Time = 102
+let player2Time = 107
+
+function getFastestRaceTime() {
+    if (player1Time < player2Time) {
+        return player1Time
+    } else if (player2Time < player1Time) {
+        return player2Time
+    } else {
+        return player1Time
+    }
 }
+let fastestRace = getFastestRaceTime()
+console.log(fastestRace)
+
