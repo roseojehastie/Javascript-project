@@ -59,8 +59,17 @@ let cardsEl = document.getElementById("cards-el")
 //CREATE A FUNCTION, getRandomCard(), that always returns the number 5
 
 function getRandomCard() {
-    return (5)
+   let randomNumber = Math.floor(Math.random() * 13) + 1
+   if (randomNumber > 10) {
+       return 10
+   } else if (randomNumber === 1) {
+       return 11
+   } else {
+       return randomNumber
+   }
+   
 }
+console.log(getRandomCard)
 
 function startGame() {
     renderGame()
@@ -115,6 +124,6 @@ renderGame()
 
 
 
-//GENERATING RANDOM NUMBERS WITH Math.random
+////
 
 
