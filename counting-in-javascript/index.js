@@ -83,3 +83,42 @@ function getFastestRaceTime() {
 let fastestRace = getFastestRaceTime()
 console.log(fastestRace)
 
+
+//GENERATING RANDOM NUMBERS WITH Math.random
+
+// let randomNumber = Math.random() *6
+//     console.log(randomNumber)
+    
+/*sss
+    What does Math.random() do? 
+    Answer: generates random numbers between 0.0000 and (1)0.99999 (not inclusive of 1)
+*/
+/*Math.random() *6 in which range will our randomNumber be now?
+  Answer: between 0.0000 to 5.999*/
+
+//   let flooredNumber = Math.floor(10.45632)
+//     console.log(flooredNumber)
+    
+/* What does Math.floor() do to positive numbers
+Answer: Returns the largest integer less than or equal to a given number*/
+
+//USING Math.random() & Math.floor() TO CREAT DICE
+
+// let randomNumber = Math.floor( Math.random() * 6 )
+// console.log(randomNumber)
+
+/* Write down all the possible values randomNumber can hold now
+Answer = 0, 1, 4, 0, 1, 2, 3, 5 */
+
+//COMPLETING OUR DICE GAME
+//MODIFY THE EXPRESSION TO GET RANGE FROM 1 - 6
+
+// let randomNumber = Math.floor( Math.random() *  6) + 1
+
+
+
+function rollDice() {
+    let randomNumber = Math.floor( Math.random() *  6) + 1
+    return (randomNumber)
+}
+console.log(rollDice())
