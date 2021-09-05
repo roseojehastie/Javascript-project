@@ -21,3 +21,13 @@ button {
   border: none;
   font-weight: bold;
 }
+#box {
+  cursor: pointer;
+  background-color: rgb(109, 219, 219);
+  width: 200px;
+  padding: 40px;
+  margin: 20px auto;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
