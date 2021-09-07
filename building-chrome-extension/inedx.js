@@ -17,4 +17,10 @@ let box = document.getElementById("box")
 box.addEventListener("click", function() {
     console.log("I want to open the box")
 })
+//create the myLeads array and inputEl
+
+let myLead = []
+inputEL = document.addEventListener("click", function() {
+
+})
 

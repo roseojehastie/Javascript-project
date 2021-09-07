@@ -58,6 +58,15 @@ let cardsEl = document.getElementById("cards-el")
 //     console.log("Not elegible, you have already gotten one")
 // }
 
+let player = {
+    name: "Eke",
+    chips: 145
+
+}
+
+let playerEl = document.getElementById("player-el")
+playerEl.textContent = player.name + ": $" + player.chips
+
 //CREATE A FUNCTION, getRandomCard(), that always returns the number 5
 
 function getRandomCard() {
