@@ -88,7 +88,7 @@ function startGame() {
     let firstCard = getRandomCard()
     let secondCard = getRandomCard() 
     cards = [firstCard, secondCard]
-    sum = firstCard, secondCard
+    sum = firstCard + secondCard
     //generate two random numbers
     //Re-assign the cards and sum variables so that the game can start
     renderGame()
@@ -106,7 +106,7 @@ function renderGame() {
 if (sum <= 20){
     message = "Do you want to draw a new card?"
    
-}else if (sum ===21){
+}else if (sum === 21) {
     message = "You have got Blackjack!"
     hasBlackjack = true
 } else {
