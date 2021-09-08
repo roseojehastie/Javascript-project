@@ -117,11 +117,11 @@ Answer = 0, 1, 4, 0, 1, 2, 3, 5 */
 
 /* CREATE A ROLLDICE FUNCTION.....*/
 
-function rollDice() {
-    let randomNumber = Math.floor( Math.random() *  6) + 1
-    return (randomNumber)
-}
-console.log(rollDice())
+// function rollDice() {
+//     let randomNumber = Math.floor( Math.random() *  6) + 1
+//     return (randomNumber)
+// }
+// console.log(rollDice())
 
 /* COMPLETING DICE FUNCTION */
 /* THE LOGICAL AND OPERATOR*/
@@ -135,14 +135,50 @@ console.log(rollDice())
 // console.log("Generating certificate....")
 //} not completed
 
-let hasSolvedChallenge = false
-let hasHintsleft = false
+//WRTTING LOGICAL OPERATOR
 
-//create an if statemet that checkes that both variables  are false
+let hasSolvedChallenge = false //(try true for results)
+let hasHintsLeft = false
+
+//create an if statemet that checks that both variables  are false
 // if so, run the showSolution() function
 
+if (hasSolvedChallenge === false && hasHintsLeft === false) {
+    showSolution()
+}
 
-// fucntion showSolution() {
-//     console.log(showing Solution())
-//     if (SolvedChallenge)
-// }
+
+function showSolution() {
+    console.log("showing the solution.....")
+}
+
+// LOGICAL OR OPERATOR
+
+let hasCompleteCourse = false 
+let givesCertificate = true
+
+if (hasCompleteCourse === true || givesCertificate === true) {
+    generateCertificate()
+}
+
+function generateCertificate() {
+    console.log("Generate certificate.....")
+}// USED TO SHOW EXAMPLE OF NONE-USEFUL CODE
+
+//CRETAE TWO BOOLEAN VARIABLES, likesDocumentaries AND likesStartups
+// USE AN OR STATEMENT (||) TO CALL recommendMovie() IF EITHER OF THOSE VARIABLES ARE TRUE
+
+let likesDocumentaries = true
+let likesStartups = true
+
+if (likesDocumentaries === true || likesStartups === flase) {
+    recommendMovies()
+}
+
+
+function recommendMovies() {
+    console.log("Hey, check out this new film we think you will like")
+}
+
+
+
