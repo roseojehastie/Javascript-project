@@ -165,8 +165,8 @@ function generateCertificate() {
     console.log("Generate certificate.....")
 }// USED TO SHOW EXAMPLE OF NONE-USEFUL CODE
 
-//CRETAE TWO BOOLEAN VARIABLES, likesDocumentaries AND likesStartups
-// USE AN OR STATEMENT (||) TO CALL recommendMovie() IF EITHER OF THOSE VARIABLES ARE TRUE
+///CRETAE TWO BOOLEAN VARIABLES, likesDocumentaries AND likesStartups
+/// USE AN OR STATEMENT (||) TO CALL recommendMovie() IF EITHER OF THOSE VARIABLES ARE TRUE
 
 let likesDocumentaries = true
 let likesStartups = true
@@ -180,6 +180,19 @@ function recommendMovies() {
     console.log("Hey, check out this new film we think you will like")
 }
 
+///USE A FOR LOOP TO LOG THE FOLLOWING TO THE CONSOLE
 
+ let largeCountries = ["China","India","USA","Indonesai","Pakistan"]
+console.log("the 5 largest country in the world")
+/*the 5 largest country in the world
+- China
+- India
+- USA
+- Indonesai
+- Pakistan
+console.log(largeCountries)
+*/
 
-
+for (let i = 0; i < largeCountries.length; i++) {
+    console.log("-" + largeCountries[i])
+}
