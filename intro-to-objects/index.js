@@ -44,4 +44,50 @@ console.log(castle.images)
 
 // player.SayHello()
 
+///CRAET A PERSON OBJECT THAT CONTAINS THREE KESY`: NAME, AGE AND COUNTRY.
+///USE YOURSELF AS AN EXAMPLE TO SET THE VALUES FOR NAME, AGE AND COUNTRY
 
+///CREATE A FUNCTION, logData(), TAHT USES THE PERSON ONBJECT TO CREATENA
+///STRING IN THE FOLLOWING FORMAT;
+/// "Eke is 35 years old and lives in Norway"
+
+/// CALL THE logData() FUNCTION TO VERIFY THAT IT WORKS
+
+let person = {
+    name: "Eke",
+    age: "35",
+    country: "Norway",
+    
+}
+    function logData(){
+    console.log(person.name + " is " + person.age + " years old and lives in " + person.country)  
+    }
+
+logData()
+
+///IF ELSE
+
+let age = 5
+///less than 6 years old -> free
+/// 6 - 17 years old  ->child discount
+/// 18 - 26 years old -> student discount
+/// 27 - 66 years old -> senior citizen discount
+
+///Create a conditional statement (is/else if) that logs out the discount
+/// The passenger will get based upon the value of the age variable
+
+
+    if (age  < 6) {
+        console.log("free")
+    } else if (age < 18) {
+        console.log("child discount")
+    } else if (age < 27) {
+        console.log (" student discount")
+    } else if (age < 67) {
+        console.log("full prize") 
+    } else {
+    console.log("senior citizen discuont")
+    }
+       
+
+    
