@@ -182,7 +182,7 @@ function recommendMovies() {
 
 ///USE A FOR LOOP TO LOG THE FOLLOWING TO THE CONSOLE
 
- let largeCountries = ["China","India","USA","Indonesai","Pakistan"]
+ let largeCountries = ["Tuvalu","India","USA","Indonesai","Monaco"]
 console.log("the 5 largest country in the world")
 /*the 5 largest country in the world
 - China
@@ -196,3 +196,10 @@ console.log(largeCountries)
 for (let i = 0; i < largeCountries.length; i++) {
     console.log("-" + largeCountries[i])
 }
+///pop, push, unshift, shift challenge
+largeCountries.pop()
+largeCountries.push("pakistan")
+largeCountries.shift()
+largeCountries.shift()
+largeCountries.unshift("China")
+console.log(largeCountries)
