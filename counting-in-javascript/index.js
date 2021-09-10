@@ -203,3 +203,12 @@ largeCountries.shift()
 largeCountries.shift()
 largeCountries.unshift("China")
 console.log(largeCountries)
+
+
+//logical operators
+let dayOfMonth = 13
+let weelday = "Friday"
+
+if (dayOfMonth === 13 && weekday === "Friday") {
+    console.log("😱")
+}
