@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 20px;
+  align-content: center;
+  text-align: center;
+  border: solid orange 10px;
+}
+
+#apple-shelf {
+  border: solid grey 10px;
+}
+
+#orange-shelf {
+  border: solid gold 10px;
+}
