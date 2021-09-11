@@ -11,8 +11,20 @@ body {
 
 #apple-shelf {
   border: solid grey 10px;
+  padding: 40px;
+  margin: 0px;
+  width: 100%;
 }
 
 #orange-shelf {
   border: solid gold 10px;
+  width: 100%;
+}
+button {
+  background-color: #5f9341;
+  color: aliceblue;
+  padding: 10px 20px;
+  border: none;
+  font-weight: bold;
+  margin-top: 20px;
 }

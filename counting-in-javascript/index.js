@@ -248,3 +248,13 @@ function sortFruit() {
     }
 }
 sortFruit()
+
+/// BUILD CHROME EXTENSION: programmmes that can enhance broswer experience e.g Honey / motion / gramally e.t.c.for gathering coupons on line 
+/// LEAD TRACKER $
+
+//ADD BUTTON AND INPUT TAG
+
+
+
+
+
