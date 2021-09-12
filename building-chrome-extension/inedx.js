@@ -3,10 +3,17 @@
 
 
 // Refractor to addEventListener
-let inputBtn = document.getElementById("input-btn" )
+// let inputBtn = document.getElementById("input-btn" )
+
+let myLeads = []
+const inputBtn = document.getElementById("input-btn" )
+const inputEL = document.getElementById("input-el")
+
 
 inputBtn.addEventListener("click", function () {
-    console.log("Button clicked from addEventListener")
+    // console.log("Button clicked from addEventListener")
+    myLeads.push("www.awesomelead.com")
+    console.log(myLeads)
 })
 //Grab the box from DOM store it in the variable
 // Add a click event listener to the box
@@ -17,10 +24,19 @@ let box = document.getElementById("box")
 box.addEventListener("click", function() {
     console.log("I want to open the box")
 })
-//create the myLeads array and inputEl
+///create the myLeads array and inputEl
+///create two variables:
+///myLead -> should be assighned to an empty array
+///inputEl -> should be assigned to the text input
 
-let myLead = []
-inputEL = document.addEventListener("click", function() {
 
-})
+// let myLead = [] ///moved to top of page
 
+
+///refractor the code so that it uses .addEventListner()
+///when you click the SAVE INPUT button
+
+///WHEN TO SAY LET & CONST
+
+const playerName = "Eke" //playerName is not to be reassigned
+let credits = 45 //if poss. use const if not use let
