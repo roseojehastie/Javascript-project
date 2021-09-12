@@ -12,9 +12,21 @@ const inputEL = document.getElementById("input-el")
 
 inputBtn.addEventListener("click", function () {
     // console.log("Button clicked from addEventListener")
-    myLeads.push("www.awesomelead.com")
+    
+    ///PUSH THE VALUE FROM THE INPUT INTO THE MYLEADS Array
+    ///INSTEAD OF THE HARD-CODED "www.awesomeleads.com" value
+    ///Google -> "get value from input field javascript"
+    
+    // myLeads.push("www.awesomelead.com")// ///Google -> "get value from input field javascript" answer below
+    myLeads.push(inputEL.value)
     console.log(myLeads)
 })
+
+
+
+
+
+
 //Grab the box from DOM store it in the variable
 // Add a click event listener to the box
 // Log out "I want to open the box" when it is clicked
@@ -32,7 +44,6 @@ box.addEventListener("click", function() {
 
 // let myLead = [] ///moved to top of page
 
-
 ///refractor the code so that it uses .addEventListner()
 ///when you click the SAVE INPUT button
 
@@ -40,3 +51,4 @@ box.addEventListener("click", function() {
 
 const playerName = "Eke" //playerName is not to be reassigned
 let credits = 45 //if poss. use const if not use let
+///PUSH THE VALUE FROM INPUT FIELD
